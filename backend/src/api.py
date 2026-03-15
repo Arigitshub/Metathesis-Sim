@@ -3,7 +3,7 @@ import uvicorn
 import asyncio
 import numpy as np
 import json
-from .modeling import TrisulfideModel
+from .metathesis_engine import TrisulfideModel
 
 app = FastAPI(title="Metathesis-Sim API")
 model = TrisulfideModel()
